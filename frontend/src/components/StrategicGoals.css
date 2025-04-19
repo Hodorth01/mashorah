@@ -1,0 +1,23 @@
+.goals-container {
+  text-align: center;
+  margin: 80px 0 100px;
+}
+
+.goals-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.goal-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  font-weight: 500;
+  color: #1d0f47;
+}

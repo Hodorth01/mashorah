@@ -1,0 +1,21 @@
+.vision-mission-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.vision-card,
+.mission-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  color: #1d0f47;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,36 @@
+.homepage {
+  position: relative;
+  padding: 50px 0;
+}
+
+.bg-top-left,
+.bg-top-right,
+.bg-bottom-left,
+.bg-bottom-right {
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-top-left {
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+
+.bg-top-right {
+  top: 0;
+  right: 0;
+  width: 120px;
+}
+
+.bg-bottom-left {
+  bottom: 0;
+  left: 0;
+  width: 110px;
+}
+
+.bg-bottom-right {
+  bottom: 0;
+  right: 0;
+  width: 140px;
+}
