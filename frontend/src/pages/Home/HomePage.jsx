@@ -3,18 +3,22 @@ import VisionMission from "../../components/VisionMission";
 import Values from "../../components/Values";
 import StrategicGoals from "../../components/StrategicGoals";
 import "./HomePage.css";
+import Partners from "../../components/Partners";
+import ContactUs from "../../components/ContactUs";
 
 const HomePage = () => {
   return (
     <div className="homepage">
       <img src="/src/assets/M_logo3.png" className="bg-top-left" alt="" />
       <img src="/src/assets/M_logo1.png" className="bg-top-right" alt="" />
-      <img src="/src/assets/M_logo2.png" className="bg-bottom-left" alt="" />
-      <img src="/src/assets/M_logo.png" className="bg-bottom-right" alt="" />
+      {/* <img src="/src/assets/M_logo2.png" className="bg-bottom-left" alt="" />
+      <img src="/src/assets/M_logo.png" className="bg-bottom-right" alt="" /> */}
 
       <VisionMission />
       <Values />
       <StrategicGoals />
+      <Partners />
+      <ContactUs />
     </div>
   );
 };

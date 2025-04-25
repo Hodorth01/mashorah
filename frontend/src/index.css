@@ -4,3 +4,10 @@ body {
   background-color: #f6f3fc;
   direction: rtl;
 }
+
+@font-face {
+  font-family: "Brando-Arabic";
+  src: url("./assets/fonts/Brando_Arabic_Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
