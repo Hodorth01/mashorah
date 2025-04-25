@@ -1,5 +1,6 @@
 import React from "react";
 import "./StrategicGoals.css";
+import Heading from "./Heading";
 
 const goals = [
   "1. بناء الشراكات الاستراتيجية مع المؤسسات البحثية والأكاديمية والربحية.",
@@ -13,10 +14,12 @@ const goals = [
 const StrategicGoals = () => {
   return (
     <div className="goals-container">
-      <h2 className="title">الأهداف الاستراتيجية</h2>
+      <Heading text="الأهداف الاستراتيجية" color="#1B0B53" align="right" />
       <div className="goals-grid">
         {goals.map((goal, idx) => (
-          <div key={idx} className="goal-card">{goal}</div>
+          <div key={idx} className="goal-card">
+            {goal}
+          </div>
         ))}
       </div>
     </div>

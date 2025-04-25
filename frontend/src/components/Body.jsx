@@ -1,17 +1,18 @@
 import React from "react";
 
-function Heading({ text, color = "#1B0B53", align = "center", size = "60px" }) {
+function Body({ text, color = "#1B0B53", align = "right", size = "24px" }) {
   return (
-    <div className="header-container">
+    <div className="body-container">
       <div
-        className="heading"
+        className="text-body"
         style={{
           color: color,
           paddingBottom: "0.5rem",
           textAlign: align,
           fontFamily: "Brando-Arabic",
           fontSize: size,
-          fontWeight: "bold",
+          fontWeight: "regular",
+          lineHeight: "190%",
         }}
       >
         {text}
@@ -20,4 +21,4 @@ function Heading({ text, color = "#1B0B53", align = "center", size = "60px" }) {
   );
 }
 
-export default Heading;
+export default Body;

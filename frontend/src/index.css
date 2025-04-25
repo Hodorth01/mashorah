@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0px 80px;
   font-family: "Tajawal", sans-serif;
   background-color: #f6f3fc;
   direction: rtl;
@@ -9,5 +9,19 @@ body {
   font-family: "Brando-Arabic";
   src: url("./assets/fonts/Brando_Arabic_Bold.otf") format("opentype");
   font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brando-Arabic";
+  src: url("./assets/fonts/Brando_Arabic_Regular.otf") format("opentype");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brando-Arabic";
+  src: url("./assets/fonts/Brando_Arabic_Medium.otf") format("opentype");
+  font-weight: medium;
   font-style: normal;
 }

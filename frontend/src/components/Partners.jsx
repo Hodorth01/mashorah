@@ -21,6 +21,7 @@ const Partners = () => {
           maxWidth: "100%",
           height: "auto",
           margin: "0px 100px",
+          padding: "80px 0px",
         }}
       />
     </div>
