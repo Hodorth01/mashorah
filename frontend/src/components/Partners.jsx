@@ -18,10 +18,9 @@ const Partners = () => {
         alt="Partners"
         style={{
           width: "100%",
-          maxWidth: "100%",
           height: "auto",
-          margin: "0px 100px",
-          padding: "80px 0px",
+          margin: "0px 60px",
+          padding: "60px 0px",
         }}
       />
     </div>

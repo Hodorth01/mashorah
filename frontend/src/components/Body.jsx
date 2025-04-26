@@ -1,6 +1,6 @@
 import React from "react";
 
-function Body({ text, color = "#1B0B53", align = "right", size = "24px" }) {
+function Body({ text, color = "#1B0B53", align = "right", size = "20px" }) {
   return (
     <div className="body-container">
       <div

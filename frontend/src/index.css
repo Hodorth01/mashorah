@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 body {
   margin: 0px 80px;
   font-family: "Tajawal", sans-serif;
@@ -24,4 +26,17 @@ body {
   src: url("./assets/fonts/Brando_Arabic_Medium.otf") format("opentype");
   font-weight: medium;
   font-style: normal;
+}
+
+#form {
+  font-family: "Brando-Arabic";
+  font-weight: bold;
+  font-size: 18px;
+  color: #1b0b53;
+}
+
+.input {
+  font-family: "Brando-Arabic";
+  font-weight: regular;
+  font-size: 18px;
 }
