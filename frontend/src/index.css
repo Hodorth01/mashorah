@@ -1,6 +1,42 @@
+@import "tailwindcss";
+
 body {
-  margin: 0;
+  margin: 0px 80px;
   font-family: "Tajawal", sans-serif;
   background-color: #f6f3fc;
   direction: rtl;
+}
+
+@font-face {
+  font-family: "Brando-Arabic";
+  src: url("./assets/fonts/Brando_Arabic_Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brando-Arabic";
+  src: url("./assets/fonts/Brando_Arabic_Regular.otf") format("opentype");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brando-Arabic";
+  src: url("./assets/fonts/Brando_Arabic_Medium.otf") format("opentype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+#form {
+  font-family: "Brando-Arabic";
+  font-weight: bold;
+  font-size: 18px;
+  color: #1b0b53;
+}
+
+.input {
+  font-family: "Brando-Arabic";
+  font-weight: regular;
+  font-size: 18px;
 }

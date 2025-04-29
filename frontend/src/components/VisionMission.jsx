@@ -1,17 +1,23 @@
 import React from "react";
 import "./VisionMission.css";
+import Heading from "./Heading";
+import Body from "./Body";
 
 const VisionMission = () => {
   return (
     <div className="vision-mission-container">
       <div className="mission-card">
-        <h2 className="title">الرسالة</h2> <p>
-          بناء بيئة بحثية وابتكارية تحول الأفكار إلى حلول مبتكرة، من خلال
-          توفير الموارد وصناعة الشراكات الاستراتيجية.
-        </p>
+        <Heading text="الرسالة" color="#1B0B53" align="right" size="50px" />
+        <Body
+          text="
+        بناء بيئة بحثية وابتكارية تحول الأفكار إلى حلول مبتكرة، من خلال توفير
+        الموارد وصناعة الشراكات الاستراتيجية."
+        />
       </div>
+
       <div className="vision-card">
-        <h2 className="title">الرؤية</h2><p>مجتمع مبتكر يقود التحول نحو اقتصاد مستدام قائم على المعرفة.</p>
+        <Heading text="الرؤية" color="#1B0B53" align="right" size="50px" />
+        <Body text="مجتمـع مبتـكـر يقـود التحـول نحو اقتصـاد مستــدام قـائم على المعرفـة." />
       </div>
     </div>
   );
